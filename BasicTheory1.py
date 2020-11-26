@@ -1,3 +1,5 @@
+# *args, **kwargs
+
 def testFunction(*args, **kwargs):
     print(type(args), args)
     print(type(kwargs), kwargs)
